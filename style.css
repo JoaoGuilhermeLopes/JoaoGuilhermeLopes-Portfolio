@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+body{
+    background: #080808;
+    color: rgb(255, 255, 255);
+}
+#header{
+    height:fit-content ;
+    background-image: url(background.jpeg);
+    background-size:cover;
+    background-position: center;
+    background-color: #fff;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+.container{
+    padding: 10px 10%;
+    margin: auto;
+    position: relative;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 140px;
+}
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+nav ul li a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    position: relative;
+
+}
+nav ul li a::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: rgb(255, 255, 255);
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+nav ul li a:hover::after{
+    width: 100%;
+}
+.header-text{
+    margin-top: 20%;
+    
+    
+}
+.header-text h1{
+    font-size: 60px;
+    margin-top: 20px;
+    margin-bottom: 80px;
+    font-size: 4.5vw ;
+    
+}
+.header-text p{
+    padding: 10px;
+    font-size: 1.7vw ;
+    font-family: 'Courier New', Courier, monospace;
+}
+.header-text span{
+    font-weight: normal;
+    color: rgb(255, 255, 255);
+
+}
+
+
+/*---------------------------------------*/
+#about{
+    padding: 80px 0;
+}
+.row {
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+.about-col1{
+    flex-basis: 35%;
+}
+.about-col1 img{
+    width: 100%;
+    border-radius: 15px;
+    
+}
+.about-col2{
+    flex-basis: 60%;
+    line-height: 160%;
+    font-size:1.4vw;
+    margin-bottom: 20px;
+}
+.subtitle{
+    font-weight: 600;
+    color: white;
+    margin-bottom: 50px;
+    font-size:4vw;
+
+}
+
+
+/*---------------------------------------*/
+#projects{
+    padding: 0px 0;
+}
+.sandbar-row{
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+    padding:2%;
+    margin-bottom: 20px ;
+    
+}
+.project-col-sandbar{
+    flex-basis: 35%;
+    font-size:1.3vw;
+}
+.project-col-sandbar img{
+    width: 110%;
+    border-radius: 15px;
+    margin-top: 4.5vw;
+}
+.project-col2-sandbar{
+    flex-basis: 60%;
+    margin-bottom: 0px;
+    font-size:1.4vw;
+    margin-bottom: 5vw;
+    letter-spacing: normal;
+}
+.project-col2-sandbar p{
+    line-height: 150%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.project-col2-sandbar h1{
+    margin-bottom: 1vw;
+    font-family:'Courier New', Courier, monospace;
+
+}
+
+.project-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.project-list h2{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+.learnbtn{
+    position: absolute;
+    color: rgb(252, 252, 252);
+    background-color: rgb(51, 51, 51);
+    transition-duration: 0.4s;
+    border-radius: 50px;
+    font-size: 6;
+    padding: 5px 20px;
+    margin-top: 15px;
+}
+
+.learnbtn:hover{
+
+    background-color: rgb(83, 83, 83);
+    color: #fff;
+}
+
+/*---------------------------------------*/
+
+.social-icons {
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 1.6vw;
+    margin-right: 15px;
+    color:#fff;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: rgb(126, 126, 126);
+    transform: translateY(-5px);
+}
+.btn{
+    color: rgb(255, 255, 255);
+    padding: 10px 32px;
+    text-align: center;
+    display: inline-block;
+    background:rgb(58, 58, 58);
+    transition-duration: 0.5s;
+    border-radius: 8px;
+}
+.btn:hover{
+    background-color: rgb(92, 92, 92);
+    color: #fff;
+}
+.contact-details{
+    margin-bottom: 10px;
+}
+.contact-left{
+    font-size: 1.3vw ;
+}
+.btnfooter{
+    color: rgb(255, 255, 255);
+    padding: 10px 32px;
+    display: inline-block;
+    background:rgb(58, 58, 58);
+    transition-duration: 0.5s;
+    border-radius: 8px;
+}

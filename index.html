@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+html {
+    scroll-behavior: smooth;
+}
+        
+</style>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, inicial-scale=1.0">
+    <title>Joao Guilherme Lopes - Portfolio Website</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/49b69ed17a.js" crossorigin="anonymous"></script>
+    <script>href="script.js"</script>
+</head>
+<body>
+<div id= "header" style="text-align: center;">
+    <div class="container">
+        <nav>
+            <ul>
+                <li><a href="#about" style="font-size: 1.6vw ;">About</a></li>
+                <li><a href="#projects" style="font-size: 1.6vw ;">Projects</a></li>
+                <li><a href="#contact" style="font-size: 1.6vw ;">Contact</a></li>
+                <li><a href="https://www.linkedin.com/in/joao-guilherme-lopes-000217172/" style="font-size: 1.6vw ;"><i class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://github.com/JoaoGRLopes?tab=repositories" style="font-size: 1.6vw ;"><i class="fa-brands fa-github"></i></a>
+                <li><a href="Images/CV.pdf" download class="btn" style="font-size: 1.6vw ;"> Download CV </a></li>
+
+            </ul>
+        </nav>
+        <div class="header-text" >
+            <h1><span>Hello, I am</span> <br>Joao Guilherme Lopes</h1>
+            <p>Computer Hardware and Software Engineer</p>
+            <p>Skilled in Java, C++, HTML, CSS, Computer Architecture, Network Architecture, and Microarchitecture.<br><br><br><br><br><br>
+            <br><br><br><br><br><br></p>
+        </div>
+    </div>
+</div>
+
+<!---------------------About-------------------------->
+
+ <div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col1">
+                <img src="me.jpg" alt="">
+            </div>
+            <div class="about-col2">
+                <h1 class="subtitle" style="font-family:'Courier New, Courier, monospace'">A little about me:</h1>
+                <p>
+                    I am an aspiring computer hardware and software engineer.<br>
+                    My excitement for this new world of technology is massive, therefore I would love to be part of this evolution 
+                    where the sky is the limit and creativity can go as far as the imagination can reach. 
+                    I enjoy experiencing the process of how the computers are continuously evolving at a fast pace, 
+                    either withing the hardware or software side, whether it's quantum computing, optical computing or some other technology. 
+                    In order to keep up with this progress, I am always open to learning new skills and gaining knowledge
+                    by challenging myself to be part of this digital revolution.
+                </p>
+            </div>
+        </div>
+    </div>
+ </div>
+<!-----------------------Projects------------------------>
+<div id="projects">
+    <div class="container">
+        <div><h1 class="subtitle" style="font-family: Verdana, Geneva, Tahoma, sans-serif;" > Projects</h1>
+            <div class="project-list"></div>
+    
+        <div class="sandbar-row">
+            <div class="project-col-sandbar">
+                <img src="c++.png" alt="">
+            </div>
+
+            <div class="project-col2-sandbar">
+                    <h1>Sand Bar Graph Project - C++</h1>
+                    <p>
+                        This project consists on automaticly drawing a graph represented by the values available to draw the graph,
+                        the sand required to fill the present gaps between the collums and the top cap of each collum. <br>
+                        These graphs could be displayed vertically or horizontally and saved in a CSV.txt file if desired. 
+                        Also, the values to draw the collums could be obtainned by reading CSV.txt files already available, inputing them manually or randomly generating them.<br>
+                        After possessing the complete graph the system would automaticly calculate the amount of "sand" required to fill 
+                        the present gaps in between the collums and display it, asking then if the user would like for the program to be repeated.
+                    </p>
+                    <a href="https://github.com/JoaoGRLopes/Sand_Bar-Graph"class="learnbtn" >Check Github Repository:</a>
+            </div>
+        </div>
+
+            <div class="sandbar-row">
+                <div class="project-col-sandbar">
+                    <img src="room.png" alt="">
+                </div>
+                <div class="project-col2-sandbar">
+                    <h1>Room Conditionning Project - Mbed C++</h1>
+                <p>
+                    This project was implemented based on a STM32F746 board with built in display that controls the environment around a room such as 
+                    temperature, lights, door locks and curtain position. <br> These were implemented around the main microchip that would be responsable for
+                    exchanging information from the secondary circuits (and all its components), displaying and manipulating them in real time with the GUI developed.<br>
+                    All this system was developed to be fully automated, interactive and versatile depending on the users preferences.
+                </p>
+                <a href="https://github.com/JoaoGRLopes/STM32F4-RoomConditioningProject" class="learnbtn" >Check Github Repository:</a>
+                </div>
+            </div>
+
+            <div class="sandbar-row">
+                <div class="project-col-sandbar">
+                    <img src="restaurant.png" alt="">
+                </div>
+                <div class="project-col2-sandbar">
+                    <h1>Java Wine Database - Java</h1>
+                <p>
+                     In this project, it was built a Java client-server application around a predefined SQLite database.<br>
+                     This system would allow the user to manage their wine collection and all its respective details such as 
+                     name, variety, designation, country, between others. It would also allow to add / remove wines in the database
+                     or even write / get a reviews about them.<br>
+                     All of this funcionallities were used in a simulated server space where the information could be transfered from / to 
+                     different users simultaniously, and these could connect or disconnect from the server as desired in order to access the available data.
+
+                </p>
+                <div>
+                    <a href="https://github.com/JoaoGRLopes/Wine_Review_DataBase" class="learnbtn"> Check Github Repository: </a>
+                </div>
+                </div>  
+            </div>
+
+            <div class="sandbar-row">
+                <div class="project-col-sandbar">
+                    <img src="library.png" alt="">
+                </div>
+                <div class="project-col2-sandbar">
+                    <h1>Java Restaurant Booking Database - Java</h1>
+                <p>
+                    Similarly with the previous project (Wine Database), this project consists on about the same structure about a java client-server
+                    application, but this time the system would be based on a restaurant booking database leading then for the implementation of certain extra features.<br>
+                    To start, it was required to create custom SQLite databases in order to add specific details,
+                    also certain improvements were made such as booking status, status management pop-ups,
+                    date / time chooser, search for costumers, meals and waiters options and print button.<br>
+                    The development of this new project and its additional features and code optimisations were implemented in this
+                    new self-made project with the intention to challenge myself
+                    to do better and to develop a real world application. 
+
+                </p>
+                <a href="https://github.com/JoaoGRLopes/Restaurant_Booking_DataBase_Advanced"class="learnbtn">Check Github Repository:</a>
+                </div>  
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-----------------------Contact------------------------>
+<div id="contact">
+    <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="contact-details"> Contact Me</h1>
+                    <p>Coventry, England</p>
+                    <p>joao-lopes12@hotmail.com</p>
+                    <p>(+44) 07926971015 - United Kingdom</p>
+                    <p>(+351) 926448799 - WhatsApp</p>
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/joao-guilherme-lopes-000217172/" style="font-size: 3vw ;" ><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://github.com/JoaoGRLopes?tab=repositories" style="font-size: 3vw ;" ><i class="fa-brands fa-github"></i></a>
+                        <a href="CV.pdf" download class="btnfooter"> Download CV </a>
+                        
+                    </div>
+                    
+            </div>
+    </div>
+
+</div>
+</body>
+</html>
