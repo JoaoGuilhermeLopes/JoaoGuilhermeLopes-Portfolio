@@ -66,12 +66,12 @@ nav ul li a:hover::after{
     font-size: 60px;
     margin-top: 20px;
     margin-bottom: 80px;
-    font-size: 4.5vw ;
+    font-size: 3vw ;
     
 }
 .header-text p{
     padding: 10px;
-    font-size: 1.7vw ;
+    font-size: 1.3vw ;
     font-family: 'Courier New', Courier, monospace;
 }
 .header-text span{
@@ -108,7 +108,7 @@ nav ul li a:hover::after{
 .about-col2{
     flex-basis: 60%;
     line-height: 160%;
-    font-size:1.4vw;
+    font-size:1.2vw;
     margin-bottom: 20px;
 }
 .subtitle{
@@ -116,7 +116,7 @@ nav ul li a:hover::after{
     font-weight: 600;
     color: white;
     margin-bottom: 8vw;
-    font-size:6vw;
+    font-size:3vw;
     font-family:'Courier New, Courier, monospace';
 }
 
@@ -134,11 +134,11 @@ nav ul li a:hover::after{
 }
 .project-col-sandbar{
     flex-basis: 35%;
-    font-size:1.3vw;
+    font-size:1vw;
 }
 .project-col-sandbar img{
     position: relative;
-    right: 6vw;
+    right: 4vw;
     width: 120%;
     border-radius: 15px;
     margin-top: 1vw;
@@ -156,7 +156,7 @@ nav ul li a:hover::after{
 .project-col2-sandbar{
     flex-basis: 60%;
     margin-bottom: 0px;
-    font-size:1.4vw;
+    font-size:1.1vw;
     margin-bottom: 5vw;
     letter-spacing: normal;
 }
@@ -230,7 +230,7 @@ nav ul li a:hover::after{
     margin-bottom: 10px;
 }
 .contact-left{
-    font-size: 1.3vw ;
+    font-size: 1vw ;
 }
 .btnfooter{
     color: rgb(255, 255, 255);
